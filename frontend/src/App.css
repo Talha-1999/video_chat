@@ -1,0 +1,41 @@
+h1{
+	text-align: center;
+	font-size: 2.5rem;
+}
+.main{
+	display: flex;
+	gap:10px;
+	height: 100vh;
+}
+
+.vedio_container{
+	flex: 2;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: wrap;
+	gap:10px
+}
+.vedio_container_child{
+	height: 40%;
+	width: 40%;
+	border-radius: 10px;
+}
+.form_container{
+	flex: 1;
+	background-color: whitesmoke;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap:10px;
+	padding: 10px;
+}
+.inner_form{
+	height: 90%;
+	padding: 1rem;
+}
+.input{
+	margin-top: 10px;
+}
+
